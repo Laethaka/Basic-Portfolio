@@ -62,15 +62,18 @@ header {
 }
 
 .footer {
-    position: relative;
+    position: absolute;
     height: 100px;
     width: 100%;
-    background: #4aaaa5;
+    background: #777777;
     bottom: 0;
+    border-top: 10px solid #4aaaa5;
 }
 
 .footerText {
+    color: white;
     position: absolute;
-    bottom: 0;
-    margin: auto 0;
+    bottom: 10px;
+    left: 75%;
 }
+
